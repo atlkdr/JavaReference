@@ -5,6 +5,7 @@ class Parent{
     this.status=1;
     System.out.println("In Parent");
   }
+  // Classes Can be private only in such cases
   static class Child{
     int status;
     Child(){
